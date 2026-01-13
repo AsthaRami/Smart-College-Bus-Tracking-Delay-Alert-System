@@ -2,8 +2,8 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/Smart-College-Bus-Tracking-Delay-Alert-System/',
   plugins: [react()],
+  base: './',
   server: {
     port: 3000,
     open: true,
